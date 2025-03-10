@@ -1,0 +1,55 @@
+.heading{
+    text-decoration: underline;
+    font-family:'Quicksand',sans-serif;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding-left: 15cm;
+}
+
+body{
+    background-color:blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(121, 56, 56);
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+.navbar a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: 'Quicksand',sans-serif;
+}
+
+.navbar a:hover{
+    color: black;
+    font-weight: bold;
+}
+.heading-with-icon{
+    position: relative;
+    display: inline-block;
+}
+
+.bagicon{
+    display: inline-block;
+    width: 100px;
+    height:auto;
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top:100%;
+    right:0;
+    transform: translateY(10px);
+    border: 1px red;
+}
